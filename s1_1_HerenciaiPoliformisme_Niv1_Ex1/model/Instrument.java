@@ -4,11 +4,7 @@ public abstract class Instrument {
 	protected String instrumentName = "";
 	protected double instrumentPrice = -1;
 	
-	public Instrument(String instrumentName, double instrumentPrice) {
-		this.instrumentName = instrumentName;
-		this.instrumentPrice = instrumentPrice;
-		
-	}
+	public Instrument() {}
 	public abstract void play();
 
 	
